@@ -1,10 +1,15 @@
+import { HomeEcommerceComponent } from './ecommerce/home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomeDashboardComponent } from './dashboard/home-dashboard/home-dashboard.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: '', component: HomeEcommerceComponent },
+  { path: 'admin', component: HomeDashboardComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
