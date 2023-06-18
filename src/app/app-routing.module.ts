@@ -5,7 +5,7 @@ import { HomeDashboardComponent } from './dashboard/home-dashboard/home-dashboar
 
 const routes: Routes = [
   { path: '', component: HomeEcommerceComponent },
-  { path: 'dashboard', component: HomeDashboardComponent },
+
 ];
 
 @NgModule({

@@ -1,10 +1,5 @@
-:root {
-    --primary: #EB1616;
-    --secondary: #191C24;
-    --light: #6C7293;
-    --dark: #000000;
-  }
-  
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
   .back-to-top {
     position: fixed;
     display: none;
@@ -13,6 +8,11 @@
     z-index: 99;
   }
   
+  .content {
+  padding-left: 250px; /* Deve ser igual à largura da navbar */
+  background-color: #000000;
+  margin-top: 3rem;
+}
   
   /*** Spinner ***/
   #spinner {
@@ -79,13 +79,30 @@ header, body, footer {
     -webkit-tap-highlight-color: rgba(0,0,0,0)
 }
 
+.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6{
+    margin-top:0;
+    margin-bottom:.5rem;
+    font-family:"Roboto",sans-serif;
+    font-weight:700;
+    line-height:1.2;
+    color:#fff
+}
 
+.mb-2{
+    color: #191c24af;
+    font-family:"Roboto",sans-serif;
+}
 
 // icones dos cards
+.show-all{
+    font-family:"Roboto",sans-serif;
+    color: #EB1616;
+}
 
 .text-primary {
     color: #EB1616 !important;
 }
+
 .fa, .fas {
     font-weight: 900;
 }
@@ -95,6 +112,7 @@ header, body, footer {
 .fa-3x {
     font-size: 3em;
 }
+
 .fa, .fab, .fad, .fal, .far, .fas {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -105,3 +123,23 @@ header, body, footer {
     line-height: 1;
 }
 
+.bg-secondary
+{
+  background-color:#ffffff1a !important;
+}
+
+    /* Checkbox selecionado */
+    .form-check-input:checked {
+      background-color: red;
+  }
+  
+  /* Campos da tabela */
+  table.table tbody td {
+      background-color: #ffffff1a;
+  }
+
+  td{
+    color: #6C7293;
+  }
+
+  
