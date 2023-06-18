@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./home-dashboard.component.scss'],
 })
 export class HomeDashboardComponent {}
-// felipe é o cara dos botoes!
-//felipe styless!!
+
