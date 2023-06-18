@@ -1,0 +1,21 @@
+.content {
+  background-color: #191C24;
+}
+
+.sidebar {
+  background-color: #191C24;
+}
+
+.navbar {
+  .navbar-brand {
+      color: #ff0000;
+  }
+
+  .nav-item {
+      color: #ff0000;
+
+      &.nav-link {
+          background-color: #000000;
+      }
+  }
+}
