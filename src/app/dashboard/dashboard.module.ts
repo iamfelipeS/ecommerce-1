@@ -12,7 +12,7 @@ import { Routes } from '@angular/router';
 
 
 @NgModule({
-  declarations: [HomeDashboardComponent, ProductComponent, HeaderComponent, FooterComponent, NavComponent],
+  declarations: [HomeDashboardComponent, ProductComponent],
   imports: [CommonModule, DashboardRoutingModule, FormsModule, ReactiveFormsModule],
 })
 export class DashboardModule {}

@@ -6,6 +6,8 @@ import { HomeDashboardComponent } from './home-dashboard/home-dashboard.componen
 const routes: Routes = [
   { path: 'produtos', component: ProductComponent },
   { path: 'dashboard', component: HomeDashboardComponent },
+  // Redireciona para dashboard quando a rota é vazia
+  { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 ];
 
 @NgModule({
